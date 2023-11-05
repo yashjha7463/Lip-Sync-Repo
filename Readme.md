@@ -1,21 +1,17 @@
 # Lip-Sync AI using Wave2Lip
 
-## Objective
-The objective of this project is to create an AI model proficient in lip-syncing, synchronizing an audio file with a video file. The goal is to accurately match the lip movements of the characters in the given video file with the corresponding audio file.
+Effortlessly sync audio and video with our cutting-edge AI model (LOL), backed by the Face Restoration AI (GFPGAN) for exceptional visual quality. 
+It is a lip-sync perfection! 🎤💫
 
-## Results
+## Input
 
 Video - (https://openinapp.co/5cwva)
 
 Audio - (https://openinapp.co/o9vuj)
 
+## Results
+
 Generated Lip Synced Video - [View on GitHub](https://github.com/stokome/LipSync-wave2lip-ai/assets/87638990/75dde50e-ca58-4d1b-9153-0bfd3045f981)
-
-## Further Improvements
-Face Restoration AI (GFPGAN) was used to enhance video quality. 
-
-
-
 
 
 ### Use of Image Restoration AI GFPGAN_ 
