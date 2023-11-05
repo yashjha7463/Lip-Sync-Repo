@@ -22,7 +22,7 @@ def main():
     download_video(video_url)
     os.system('ffmpeg -y -i youtube_video.mp4 -ss 0 -t 67 -async 1 ./input_video.mp4')
     os.system('gdown 1jhUOAeGw8lPjNf7Q1cIcBOvzE3CJ3gVz')
-    os.system('cd ./LipSync-wave2lip-project/Wav2Lip && python inference.py --checkpoint_path checkpoints/wav2lip_gan.pth --face "../../input_video.mp4" --audio "../../output10.wav" --nosmooth --outfile ../../output_video.mp4 --fps 25 --face_det_batch_size 32 --wav2lip_batch_size 128')
+    os.system('cd .//Lip-Sync-Repo/Wav2Lip && python inference.py --checkpoint_path checkpoints/wav2lip_gan.pth --face "../../input_video.mp4" --audio "../../output10.wav" --nosmooth --outfile ../../output_video.mp4 --fps 25 --face_det_batch_size 32 --wav2lip_batch_size 128')
 
 if __name__ == "__main__":
     main()
